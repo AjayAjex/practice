@@ -1,0 +1,74 @@
+🔹 Opening – Set the Context
+
+“When organizations begin their cloud journey, they often start by creating subscriptions and deploying resources directly.
+Each team builds their own networking, security rules, identity setup, and policies.
+
+Initially this works fine, especially for small workloads or PoCs. But as the environment grows, governance becomes inconsistent, security controls vary between teams, and operational complexity increases.”
+
+Short pause.
+
+“This unstructured approach is what we refer to as a Non-Landing Zone or ad-hoc model.”
+
+Quick example (just one line):
+
+“For example, one team may enforce security policies properly, while another team may leave resources publicly exposed — simply because there is no centralized governance.”
+
+🔹 Slide 1 – What Azure Landing Zone Solves
+
+“Azure Landing Zone addresses this challenge by providing a structured, enterprise-ready cloud foundation built on Microsoft’s Cloud Adoption Framework.”
+
+Continue smoothly:
+
+“Instead of deploying resources randomly, Landing Zone establishes built-in governance, centralized identity, structured networking, and security controls from day one.”
+
+🔹 What It Protects
+
+“It protects the entire enterprise footprint through guardrails like Azure Policy, centralized identity using Microsoft Entra ID, and secure Hub-and-Spoke networking.”
+
+Add one more layer:
+
+“This means security, compliance, and operational standards are embedded into the platform — not added later.”
+
+🔹 Key Capabilities (Expand a Bit)
+
+“From a capability perspective, Landing Zones provide:
+
+Centralized governance using Azure Policy and management groups
+
+Structured networking such as Hub-and-Spoke or Virtual WAN
+
+Integrated identity and role-based access control
+
+Clear subscription organization for scalability
+
+This makes it easier to scale the environment without losing control.”
+
+🔹 Organizational Value (Expand Slightly)
+
+“From a business point of view, Landing Zones accelerate cloud adoption by providing a ready-to-use, compliant environment.
+
+They reduce technical debt, lower operational overhead through automation, and ensure alignment with industry standards like ISO and SOC from the beginning.”
+
+Then transition:
+
+“Now let’s look at how this structured model is implemented architecturally.”
+
+🔹 Slide 2 – Enterprise-Scale Architecture (High-Level Only)
+
+“This diagram represents the Enterprise-Scale Landing Zone architecture.
+
+At a high level, Azure is organized using management groups at the top to enforce governance and policies consistently across subscriptions.
+
+Responsibilities are separated into dedicated subscriptions such as Security, Identity, Connectivity, Management, and Workloads — rather than keeping everything in one flat structure.
+
+Networking follows a Hub-and-Spoke model, where shared services like firewalls, DNS, VPN, and ExpressRoute are centralized, while applications run in isolated landing zone subscriptions.
+
+Identity is centralized through Entra ID and can integrate with on-premises Active Directory for hybrid environments.
+
+Security services like Defender and Sentinel provide centralized monitoring and protection across all subscriptions.
+
+This structure ensures workloads remain independently manageable while governance and security remain centralized.”
+
+🔹 Final Closing Statement
+
+“So in simple terms, Azure Landing Zone is about building Azure correctly from the start — structured, secure, scalable, and enterprise-ready — instead of trying to fix governance and security issues later.”
