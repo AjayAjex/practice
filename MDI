@@ -1,0 +1,106 @@
+Today, most enterprise environments still rely heavily on Active Directory for authentication.
+Every time a user logs in, accesses a file share, or authenticates to a server, protocols like Kerberos, NTLM, and LDAP are used behind the scenes through domain controllers.
+
+Now the problem is — attackers also target identity.”
+
+Pause.
+
+“Techniques like Pass-the-Hash, Golden Ticket, credential theft, and lateral movement all abuse Active Directory authentication flows.
+
+This is where Microsoft Defender for Identity comes in.”
+
+🔹 What It Is
+
+“MDI is a cloud-based identity threat detection solution that monitors on-premises Active Directory signals.
+
+It works by installing an MDI sensor directly on Domain Controllers and AD FS servers.
+
+These sensors analyze:
+
+Active Directory entities
+
+Parsed network traffic
+
+Windows security events
+
+Authentication patterns like Kerberos and LDAP
+
+All this telemetry is sent to the Microsoft 365 Defender portal for analysis.”
+
+🔹 What It Protects
+
+“MDI protects:
+
+• Hybrid identities — both on-prem AD and cloud-synced identities
+• Directory services like Active Directory, AD FS, and AD CS
+• Authentication flows such as Kerberos and NTLM
+
+So instead of just monitoring endpoints, MDI monitors the identity infrastructure itself.”
+
+Strong line:
+
+“Because if identity is compromised, the attacker owns the network.”
+
+
+
+-----------------------------------------------------------------------
+
+“Now let’s look at what MDI actually does.”
+
+🔹 Key Capabilities
+
+“First, User and Entity Behavior Analytics (UEBA).
+
+MDI builds behavioral profiles of users and detects anomalies — for example:
+
+A user logging in from unusual locations
+
+Abnormal LDAP queries
+
+Suspicious privilege escalation”
+
+“Second, Lateral Movement Detection.
+
+If an attacker steals credentials and starts moving between servers using Kerberos tickets, MDI detects that pattern immediately.”
+
+“Third, Security Posture Management.
+
+It identifies risky AD configurations such as:
+
+Unconstrained delegation
+
+Weak protocols
+
+Misconfigured service accounts”
+
+“Fourth, Advanced Attack Detection.
+
+It detects sophisticated attacks like:
+
+Pass-the-Hash
+
+Golden Ticket
+
+Reconnaissance attacks inside AD”
+
+🔹 Organizational Value
+
+“From a business perspective, MDI provides:
+
+• Identity-centric security — protecting the most targeted attack vector
+• Faster investigation with a clear attack timeline
+• Native integration with Microsoft Defender XDR
+
+This means identity alerts are correlated with endpoint, email, and cloud signals.”
+
+🔹 Strong Closing Line
+
+“So in simple terms,
+
+If MDE protects the device,
+And Sentinel centralizes visibility,
+
+MDI protects the identity layer — which is often the attacker’s primary objective.”
+
+
+
