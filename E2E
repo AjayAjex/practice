@@ -1,0 +1,18 @@
+“Now that we’ve discussed MDE, MDI, Sentinel, and the overall architecture, this slide shows how everything connects in a unified security flow.
+
+It begins at the endpoint, where MDE detects suspicious behavior such as abnormal processes or credential misuse.
+
+If identity-based anomalies occur, MDI detects suspicious authentication patterns or lateral movement.
+
+These signals are forwarded to Microsoft Sentinel, which acts as the centralized SIEM layer.
+
+Sentinel correlates endpoint and identity alerts, applies analytics rules, and generates a high-confidence incident.
+
+If automation is enabled, SOAR playbooks can isolate devices, disable accounts, or notify teams automatically.
+
+Finally, the SOC team investigates, validates, and performs remediation or escalation as needed.
+
+So this flow demonstrates how detection, correlation, and response operate together across endpoint, identity, and cloud environments.”
+
+
+“Based on this end-to-end flow, let me summarize the key takeaways.”
