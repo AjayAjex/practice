@@ -1,0 +1,65 @@
+Today, most of us use our mobile phones to access Microsoft Teams, Outlook, SharePoint, or company emails.
+Some of us use corporate laptops, some use personal devices under BYOD.
+
+Now the question is —
+How does the organization ensure that corporate data is secure on all these devices?”
+
+Pause.
+
+“This is where Microsoft Intune comes in.”
+
+🔹 What It Is
+
+“Microsoft Intune is a cloud-based Unified Endpoint Management solution.
+
+Under Intune, we have two major capabilities:
+
+• MDM – Mobile Device Management
+• MAM – Mobile Application Management
+
+MDM manages the entire device.
+MAM manages only the corporate applications and data.”
+
+🔹 Simple Difference (Say This Clearly)
+
+“If the device is company-owned and fully enrolled — Intune uses MDM to control the whole device.
+
+If it’s a personal device — Intune can use MAM to protect only corporate apps like Outlook and Teams, without touching personal data.”
+
+That’s the key difference.
+
+🔹 What It Protects
+
+“Intune protects:
+
+• Multiple platforms — iOS, Android, Windows, macOS
+• Corporate data inside apps and devices
+• Identity and access by allowing only compliant devices to access company resources
+
+So even if a device is lost, stolen, or jailbroken, access can be blocked immediately.”
+
+🔹 Key Capabilities
+
+“Some important capabilities include:
+
+• Zero-touch device enrollment using Windows Autopilot or Apple Business Manager
+• Compliance policies — enforcing PIN, encryption, OS version
+• Remote actions — lock, reset, or selective wipe
+• App protection policies — preventing copy-paste of company data into personal apps
+
+So IT gets control, but user privacy is still maintained.”
+
+🔹 Organizational Value
+
+“This helps organizations:
+
+• Support secure BYOD
+• Reduce IT overhead with centralized cloud management
+• Enforce security automatically using Conditional Access
+
+So instead of trusting devices blindly, access is granted only if the device is secure and compliant.”
+
+🔹 Strong Closing Line
+
+“In simple terms,
+Microsoft Intune ensures that no matter where employees work from — corporate data stays protected, devices stay compliant, and access remains controlled.”
