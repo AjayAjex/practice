@@ -1,0 +1,31 @@
+“Azure Storage is Microsoft’s managed cloud storage service designed to securely store enterprise data at scale.
+
+It provides highly available, durable, and scalable storage for different types of data such as blobs, files, queues, tables, and virtual machine disks.”
+
+🔹 What It Protects
+
+“From a security perspective, Azure Storage protects data both at rest and in transit.
+
+All data is automatically encrypted using AES-256 encryption, and secure communication is enforced through HTTPS and TLS.
+
+It also supports fine-grained access control using Microsoft Entra ID and Shared Access Signatures, ensuring only authorized users or applications can access the data.”
+
+Add one short resiliency line:
+
+“It also provides redundancy options to protect against hardware failure or even regional outages.”
+
+🔹 Key Capabilities
+
+“In terms of capabilities, Azure Storage supports multiple storage services like Blob Storage for unstructured data, Azure Files for shared file access, and Disk Storage for virtual machines.
+
+It offers redundancy models such as LRS, ZRS, and GRS to ensure durability.
+
+It also supports lifecycle management to automatically move data between hot, cool, and archive tiers to optimize cost.”
+
+🔹 Organizational Value
+
+“From an organizational standpoint, Azure Storage provides cost efficiency with a pay-as-you-go model, massive scalability to handle large workloads, and global availability across regions to reduce latency and improve performance.”
+
+🔹 Clean Closing Line
+
+“So overall, Azure Storage acts as the secure and scalable data foundation for applications running in Azure.”
